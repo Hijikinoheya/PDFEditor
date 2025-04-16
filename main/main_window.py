@@ -19,7 +19,7 @@ class PDFEditorApp(QMainWindow):
     def initUI(self):
         self.setWindowTitle("PDF Editor")
         self.setGeometry(100, 100, 800, 600)
-        self.setWindowIcon(QIcon("resources/icon.png"))
+        self.setWindowIcon(QIcon("logo.png"))
 
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
